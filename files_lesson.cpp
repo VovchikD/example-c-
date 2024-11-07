@@ -19,9 +19,9 @@ int main() {
     // file1 >> temp;
 
     char temp[100];
-    file.getline(temp, 100);
+    file1.getline(temp, 100);
     cout << temp << endl;
-    file.close();
+    file1.close();
   }
 
   return 0;
